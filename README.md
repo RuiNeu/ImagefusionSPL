@@ -3,10 +3,13 @@
     >> mex -setup 
    (for using OMP OMPBox.)
    More details, please check the folder 'ksvdbox'->'ompbox'
+   
 2. all .mat files are learned operateors 'Omega' or dictionaries 'D', 
    e.g., LearnedOmega_adm64X25.mat, which can be learned by the functions in 'analysisLearning'
          LearnedD25X256.mat, which can be learned by the functions in 'ksvdbox'
+         
 3. Folders && Main Functions:
+
 --toolbox
     Evaluation: fusion evaluations by Q_MI and Q_ABF;
     Focus: two multi-focus images;
