@@ -10,21 +10,16 @@
     Evaluation: fusion evaluations by Q_MI and Q_ABF;
     Focus: two multi-focus images;
     ksvdbox: KSVD for dictionary learning;
---analysis operator Learning
-    analysisLearning: analysis operator learning;
 
 --fusion methods
 SF-DCT: image fusion approach in discrete cosine transform
     demo_SFDCTvar.m -- quick start, when pz=7, sigma=0;
-    DemofigPatch_DCT.m -- print fusion results when sigma = 0, pz=5,6,7,8,9;
     mainSFDCTvar.m  -- fusion based on DCT
 SR-KSVD: sparse representation K-SVD-based fusion
     demo_SRKSVD.m -- quick start, when pz=7, sigma=0;
-    DemofigPatch_KSVD.m -- print fusion results when sigma = 0, pz=5,6,7,8,9;
     sparse_fusion.m  -- fusion based on sparse representation
 Proposed: proposed method
     demo_fusionAnalysis.m -- quick start, when pz=7, sigma=0;
-    DemofigPatch.m -- print fusion results when sigma = 0, pz=5,6,7,8,9;
     mainFusionFunction  -- fusion based on learned Omega
     Fusion.m-- global optimization based on ADMM;
    
