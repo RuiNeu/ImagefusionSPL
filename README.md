@@ -13,16 +13,26 @@
     ksvdbox: KSVD for dictionary learning;
 
 --fusion methods
+
 SF-DCT: image fusion approach in discrete cosine transform
+
     demo_SFDCTvar.m -- quick start, when pz=7, sigma=0;
+    
     mainSFDCTvar.m  -- fusion based on DCT
+    
 SR-KSVD: sparse representation K-SVD-based fusion
+
     demo_SRKSVD.m -- quick start, when pz=7, sigma=0;
+    
     sparse_fusion.m  -- fusion based on sparse representation
+    
 Proposed: proposed method
     demo_fusionAnalysis.m -- quick start, when pz=7, sigma=0;
+    
     mainFusionFunction  -- fusion based on learned Omega
+    
     Fusion.m-- global optimization based on ADMM;
+    
    
 
 4. Possible bug
