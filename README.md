@@ -30,6 +30,7 @@ SR-KSVD: sparse representation K-SVD-based fusion
     sparse_fusion.m  -- fusion based on sparse representation
     
 Proposed: proposed method
+
     demo_fusionAnalysis.m -- quick start, when pz=7, sigma=0;
     
     mainFusionFunction  -- fusion based on learned Omega
