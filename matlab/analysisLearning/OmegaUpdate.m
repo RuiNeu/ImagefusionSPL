@@ -18,7 +18,7 @@ while (k <= iter)&& ( e~=1 )
         countStep = 0;
         k = k + 1;
     else
-        t = t / 1.5; % modifying the stepsize
+        t = t / 1.5; 
         countStep = countStep + 1;
         if countStep >= 8, e = 1; end 
     end
