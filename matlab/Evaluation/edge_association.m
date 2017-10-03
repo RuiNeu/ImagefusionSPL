@@ -5,9 +5,11 @@ function result=edge_association(A,B,F)
 % Website: http://quxiaobo.go.8866.org
 
 %reference paper:Objective image fusion performance measure
+
 A=double(A);
 B=double(B);
-F=double(F);
+F=double(F); %fusion image
+
 [row,column]=size(A);
 [gA,aA]=get_g_a(A);
 [gB,aB]=get_g_a(B);
