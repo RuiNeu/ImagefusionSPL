@@ -5,7 +5,7 @@
    (for using OMP OMPBox.)
    More details, please check the folder 'ksvdbox'->'ompbox'
 
-2. all .mat files are learned operateors 'Omega' or dictionaries 'D', where are used for image fusion based on K-SVD method and proposed method. 
+2. all .mat files are learned operateors 'Omega' or dictionaries 'D', where are used for image fusion based on proposed method and K-SVD method, respectively. 
 
 
    e.g., LearnedOmega_adm64X25.mat, which can be learned by the functions in 'analysisLearning'
