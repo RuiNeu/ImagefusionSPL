@@ -24,9 +24,13 @@
 
 --analysisLearning: analysis operator learning. 
 
+
     Example_AnalysisOperaterLearning.m -- demo for learning;
+    
     OmegaUpdate.m -- update Omega;
+    
     ADMM.m -- update cosparse coefficients by admm;
+    
     TrainSet.m -- training samples
 
 --fusion methods
