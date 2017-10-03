@@ -39,7 +39,7 @@ img1 = uint8(img1);
 img2 = uint8(img2);
 imgf = uint8(imgf);
 
-Result_R1 = Evaluation(img1,img2,imgf,256);
+%Result_R1 = Evaluation(img1,img2,imgf,256);
 figure;imshow(imgf,[]);
 
 

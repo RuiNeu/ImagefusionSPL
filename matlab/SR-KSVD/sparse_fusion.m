@@ -28,8 +28,9 @@ for ii = 1:length(gridx)
         w = w1;
         if sum(abs(w1))<sum(abs(w2)) %fusion
             w = w2;
+            mean_f = mean2;
         end
-        mean_f = (mean1+mean2)/2;
+        mean_f = mean2;
         patch_f = DKsvd * w;
         Patch_f = reshape(patch_f, [pz, pz]);
         Patch_f = Patch_f + mean_f;

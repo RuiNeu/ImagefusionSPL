@@ -7,11 +7,9 @@ tic;
 imgf = sparse_fusion(img1,img2,Dksvd,overlap,epsilon); %Dksvd
 toc;
 
-img1 = imresize(img1,size(imgf));
-img2 = imresize(img2,size(imgf));
 img1 = uint8(img1);
 img2 = uint8(img2);
 imgf = uint8(imgf);
 
-Result = Evaluation (img1,img2,imgf,256);
+Result = Evaluation (img1,img2,imgf,256)
 
