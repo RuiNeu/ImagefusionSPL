@@ -45,8 +45,8 @@ for i = 1:floor(m/pz)
         im2Norm = patch_2 ./ pz;
         im1Var = sum(sum(im1Norm.^2));
         im2Var = sum(sum(im2Norm.^2));
-        if im1Var > im2Var         % Fusion
-            SFVar = patch_1;
+        if im2Var > im1Var  %Fusion
+            SFVar = patch_2;
         else
             SFVar = 0.5*(patch_1+patch_2);
         end
