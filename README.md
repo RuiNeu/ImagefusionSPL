@@ -19,7 +19,8 @@
     Focus: two multi-focus images;
     ksvdbox: KSVD for dictionary learning;
 
---analysisLearning: analysis operator learning(Proposed); When you learn an analysis operator, e.g., the size of Omega = 64X25, please set the patch size = 5. 
+--analysisLearning: analysis operator learning. 
+
 
 --fusion methods
 SF-DCT: image fusion approach in discrete cosine transform
@@ -68,10 +69,9 @@ Proposed: proposed method
     
     Fusion.m-- global optimization based on ADMM;
 
-4. Possible bugs
+4. Possible bug
 
-  'Error using conv2 N-D arrays are not supported.'  When happens it, please run again. 
-   That happened that the commond doesn't run because color images do not tranfer into gray images.
+  'Error using conv2 N-D arrays are not supported.'  When happens it, please run again. That happened that the commond doesn't run because color images do not tranfer into gray images.
 
 5. Tips
 
