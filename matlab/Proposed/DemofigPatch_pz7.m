@@ -22,8 +22,8 @@ sigma = 5;
 v = sigma/(255*255);
 noise_gray_image_input1 = imnoise(gray_image_input1,'gaussian',0, v );
 noise_gray_image_input2 = imnoise(gray_image_input2,'gaussian',0, v );
-noise_gray_image_input1=double(noise_gray_image_input1);
-noise_gray_image_input2=double(noise_gray_image_input2);
+noise_gray_image_input1 = double(noise_gray_image_input1);
+noise_gray_image_input2 = double(noise_gray_image_input2);
 [imgf2,Result2] = mainFusionFunction(noise_gray_image_input1,noise_gray_image_input2,x_cols,Omega);
 
 clear sigma;
