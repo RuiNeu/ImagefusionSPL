@@ -18,7 +18,7 @@
     Focus: two multi-focus images;
     ksvdbox: KSVD for dictionary learning;
 
---analysisLearning: analysis operator learning(Proposed); When you learn an analysis operator, e.g., LearnedOmega_adm64X25, please set the patch size = 5. 
+--analysisLearning: analysis operator learning(Proposed); When you learn an analysis operator, e.g., the size of Omega = 64X25, please set the patch size = 5. 
 
 --fusion methods
 SF-DCT: image fusion approach in discrete cosine transform
