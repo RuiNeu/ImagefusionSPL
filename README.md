@@ -12,8 +12,11 @@
 
 --toolbox
     Evaluation: fusion evaluations by Q_MI and Q_ABF;
+    
     Focus: two multi-focus images;
+    
     ksvdbox: KSVD for dictionary learning;
+    
 
 --fusion methods
 
