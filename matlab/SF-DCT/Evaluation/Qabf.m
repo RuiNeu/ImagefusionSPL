@@ -1,10 +1,3 @@
-
-%    Objective Image Fusion Performance Measure
-%    C.S.Xydeas and V.Petrovic
-%    Electronics Letters
-
-%    edit by Richang Hong; May 27 07
-
 function output = Qabf(strA, strB, strF)
 % strA and strB is the source images and strF is the fusion result
 
@@ -13,9 +6,8 @@ function output = Qabf(strA, strB, strF)
     
 % Sobel Operator
 h1=[1 2 1;0 0 0;-1 -2 -1]; h2=[0 1 2;-1 0 1;-2 -1 0]; h3=[-1 0 1;-2 0 2;-1 0 1];
-% if y is the response to h1 and x is the response to h3;
-% then the intensity is sqrt(x^2+y^2) and orientation is arctan(y/x);
-pA = imread(strA); pA = double(pA);
+
+pA = imread(strA); pA = double(pA);;
 pB = imread(strB); pB = double(pB);
 pF = imread(strF); pF = double(pF);
 
