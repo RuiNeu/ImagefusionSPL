@@ -14,9 +14,5 @@ HB=entropy_fusion(grey_matrixB,grey_level);
 HF=entropy_fusion(grey_matrixF,grey_level);
 HFA=Hab(grey_matrixF,grey_matrixA,grey_level);
 HFB=Hab(grey_matrixF,grey_matrixB,grey_level);
-mutural_informationR=(HA/HFA + HB/HFB)*53/75
-
-% MIFA=HA+HF-HFA;
-% MIFB=HB+HF-HFB;
-% mutural_informationR=MIFA+MIFB;
+mutural_informationR=(HA/HFA + HB/HFB)*53/75;
 
