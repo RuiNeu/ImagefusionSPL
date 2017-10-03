@@ -61,7 +61,8 @@ imgf_O = imgf;
 imgf = Fusion(imgf_O,Big_Omega,lambda); 
 toc;
 
-imgf = imresize(imgf,size(img1));
+img1 = imresize(img1,size(Big_Omega));
+img2 = imresize(img2,size(Big_Omega));
 img1 = uint8(img1);
 img2 = uint8(img2);
 imgf = uint8(imgf);
