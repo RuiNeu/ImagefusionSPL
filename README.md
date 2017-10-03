@@ -16,11 +16,22 @@
 --toolbox
 
     Evaluation: fusion evaluations by Q_MI and Q_ABF;
+    
     Focus: two multi-focus images;
+    
     ksvdbox: KSVD for dictionary learning;
+    
 
 --analysisLearning: analysis operator learning. 
 
+    Example_AnalysisOperaterLearning.m -- demo for learning;
+    
+    OmegaUpdate.m -- update Omega;
+    
+    ADMM.m -- update cosparse coefficients by admm;
+    
+    TrainSet.m -- training samples
+    
 
 --fusion methods
 SF-DCT: image fusion approach in discrete cosine transform
