@@ -75,7 +75,7 @@ Proposed: proposed method
 5. Tips
 
 (1) SF-DCT: DemofigPatch_DCT.m, DemofigPatch_DCT_sigma15.m, DemofigPatch_DCT_sigma15.m, DemofigPatch_DCT_pz9.m;  SR-KSVD: DemofigPatch_KSVD.m, DemofigPatch_KSVD_sigma15.m, DemofigPatch_KSVD_pz7.m, DemofigPatch_KSVD_pz7.m; Proposed: DemofigPatch.m, DemofigPatch_sigma15.m, DemofigPatch_pz7.m, DemofigPatch_pz9.m; 
-These ‘.m’ files could print out the values of Q_MI, Q_ABF and elapsed times by SF-DCT method, SR-KSVD, and Proposed method in various parameters. Here, the functions print the values from example in Fig.1 (a) and (b), and Fig.2 (a) and (b). In IV parts, Fig. 3, Fig. 4 and Table I show the average values by conducting several experiments that is also described in the letter. But the similar values and trends can be read from these ‘.m’ files. More focus images can be download from the dataset website (http://mansournejati.ece.iut.ac.ir/content/lytro-multi-focus-dataset) . 
+These ‘.m’ files could print out the values of Q_MI, Q_ABF and elapsed times by SF-DCT method, SR-KSVD, and Proposed method in various parameters. Here, the functions print the values from example in Fig.1 (a) and (b), and Fig.2 (a) and (b). In IV parts, Fig. 3, Fig. 4 and Table I show the average values by conducting several experiments that is described in the letter. But the similar values and trends can be read from these ‘.m’ files. More focus images can be download from the dataset website (http://mansournejati.ece.iut.ac.ir/content/lytro-multi-focus-dataset) . 
 
-(2) The evaluation functions are computed based on pixels that means it is sensitive to displacement. So when use the Matlab command to reset the image size, e.g., imresize, please make sure the source images are also reset in the same way. 
+(2) The evaluation functions are sensitive to pixel displacements. So when use the Matlab command to reset the image size, e.g., 'imresize', please make sure the source images are also reset in the same way. 
 
